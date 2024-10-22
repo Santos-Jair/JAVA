@@ -24,7 +24,7 @@ class BankAccount(private var _balance: Double, val accountHolder: String) {
 }
 fun main() {
 
-    val account = BankAccount(1000.0, "João Silva")
+    val account = BankAccount(1000.0, "Jair Santos")
 
     println("Saldo inicial de ${account.accountHolder}: R$${account.balance}")
     account.deposit(500.0)
